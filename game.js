@@ -7,6 +7,8 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
+var isBool = false;
+
 $(document).keypress(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
